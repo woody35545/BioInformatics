@@ -1,10 +1,10 @@
 # Predict non-small cell lung cancer using DNA sequence  
-  
 
 ## [보유 Sequence Data]
-#### index 1 - 1342 까지 비소세포폐암 환자 (1341 개)  
-#### index 1342 - 2542 까지 일반인 (1201개)  
-> 약 250명분의 Real Data와 원본 데이터에 노이즈를 추가한 Data Augmentation을 사용하여 총 2542개의 데이터로 구성하였음.
+<b> index 1 - 1342 까지 비소세포폐암 환자 (1341 개)</b>  
+<b> index 1342 - 2542 까지 일반인 (1201개)</b>  
+> 약 120명의 비소세포폐암 환자 데이터와 <i><b>Reference Sequence</b></i>를 증폭하여 만든 120명의 정상인 데이터가 원본 데이터(약 240개)를 구성함.  
+> 원본 데이터에 노이즈를 추가하는 방식으로 <i>(Data Augmentation)</i> 증폭하여 총 2542개의 학습용 데이터로 구성하였음.
 
 ## [학습에 사용된 데이터]
 > 환자 1200명, 일반인 1200명
